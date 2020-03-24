@@ -41,4 +41,3 @@ def play(board) # Define your play method below
   legal_game += 1
   end
 end
-end
