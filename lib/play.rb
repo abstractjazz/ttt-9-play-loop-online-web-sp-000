@@ -34,7 +34,7 @@ def turn(board)
     turn(board)
   end
 
-def play # Define your play method below
+def play(board) # Define your play method below
 while
   legal_game = 0
   while legal_game > 9
