@@ -35,10 +35,10 @@ def turn(board)
   end
 
 def play(board) # Define your play method below
-  turn(board) = 0
-  while turn(board) < 9
-  puts "What's Your Move"
-  turn(board) += 1
+  player_move = 0
+  while player_move < 9
+  turn(board)
+  player_move += 1
   end
 end
 end
