@@ -35,10 +35,11 @@ def turn(board)
   end
 
 def play # Define your play method below
-legal_game = 9
 while
-  legal_game < 9
+  legal_game = 0
+  while legal_game > 9
   turn(board)
+  legal_game += 1
   end
 end
 end
